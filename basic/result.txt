@@ -1,0 +1,2 @@
+sampleScore 숫자의 합계는  : 787
+sampleScore 숫자의 평균은  : 78.7
