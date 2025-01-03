@@ -4,15 +4,30 @@
 
 # 파이썬에서 제공되는 기본 모듈 사용하기
 # 모듈 불러오기
-# 1번 방법 : import 모듈명
 
-import math
+# import mod1
 
-print(dir(math))  # math 가 제공해주는 함수들
+# print(mod1.add(5, 8))
+# print(mod1.sub(4, 2))
 
-print(math.ceil(3.14))
-print(math.sin(1))
-print(math.cos(1))
-print(math.floor(3.14))
+# from mod1 import add as numberAddingMethod
+from mod1 import *
 
-import random
+print(add(7, 3))
+print(sub(7, 3))
+print()
+
+from mod2 import prt1, prt2
+
+prt1()
+prt2()
+
+
+import mod3
+
+print(mod3.add(17, 5))
+
+m = mod3.Math()
+print(m.solv(6))
+
+print(mod3.PI)
